@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import { nanoid } from "nanoid";
 
 const contactsPath = `./db/contacts.json`;
 
@@ -39,7 +40,7 @@ async function addContact(name, email, phone) {
 
     const contacts = await listContacts();
     const contact = {
-        id: (contacts.length + 1).toString(),
+        id: nanoid(),
         name,
         email,
         phone

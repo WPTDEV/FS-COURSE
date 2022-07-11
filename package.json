@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
-    "commander": "^9.3.0"
+    "commander": "^9.3.0",
+    "nanoid": "^4.0.0"
   }
 }
