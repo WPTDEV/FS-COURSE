@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { nanoid } from "nanoid";
 
-const contactsPath = `./db/contcts.json`;
+const contactsPath = `./db/contacts.json`;
 
 // Return contacts list from DB file
 async function listContacts() {
