@@ -18,7 +18,6 @@ export const createContact = {
 export const getContacts = {
 	query: Joi.object().keys({
 		name: Joi.string(),
-		role: Joi.string(),
 		sortBy: Joi.string(),
 		limit: Joi.number().integer(),
 		page: Joi.number().integer(),
